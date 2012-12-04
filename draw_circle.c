@@ -10,8 +10,7 @@
 #include <ncurses.h>
 #include <math.h>
 
-#define PI 3.1416927f
-#define DEGTORAD(deg) (deg * (180.0f/PI))
+#define DEGTORAD(deg) (deg * (180.0f/M_PI))
 #define DOT 46
 
 int main(int argc, char *argv[]) {
